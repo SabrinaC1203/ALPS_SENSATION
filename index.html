@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alps Sensation - Savons personnalisés</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header>
+        <menu>
+            <nav class="navbar">
+            <div class="menu-toggle" id="menu-toggle">
+                 ☰
+            </div>    
+            <ul class="nav-links" id="nav-links">
+                <li><a href="accueil">Accueil</a></li>
+                <li><a href="produits">Produits</a></li>
+                <li><a href="savonsperso">Savons personnalisés</a></li>
+                <li><a href="mission">Notre mission</a></li>
+                <li><a href="contact">Contact</a></li>
+            </ul>
+            </nav>
+        </menu>
+
+        <h1>Alps Sensation</h1>
+
+        <img src="images/Logo ALPS SENSATION_Bleu-fond-transparent.png" alt="Logo Alps Sensation">
+    </header>
+
+    <main>
+        <section id="accueil">
+            <img src="images/Coffret savons artisanaux.jpg">
+            <h2>La sensation des Alpes sur votre corps</h2>
+            <p>Savons naturels fabriqués artisanalement. Nos savons sont doux, nourrissants, hydratants et apportent les bienfaits nécessaires au bien-être de votre peau et ceci grâce à des huiles de qualité sélectionnées avec soin.</p>
+        </section>
+
+        <section id="produits">
+            <h2>Nos produits</h2>
+            <div class="savons">
+                <div>
+                    <h3>Savon Coquelicot</h3>
+                    <p>Blabla</p>
+                    <p>Prix</p>
+                </div>
+
+                <div>
+                    <h3>Savon Verveine</h3>
+                    <p>Blabla</p>
+                    <p>Prix</p>
+                </div>
+
+                <div>
+                    <h3>Savon Sauge et Romarin</h3>
+                    <p>Blabla</p>
+                    <p>Prix</p>
+                </div>
+
+                <div>
+                    <h3>Savon Miel Sucré</h3>
+                    <p>Blabla</p>
+                    <p>Prix</p>
+                </div>
+
+                <button>Commandez depuis notre boutique Whatsapp</button>
+            </div>
+        </section> 
+        
+        <section id="savonsperso">
+            <div>
+                <h2>Savons personnalisés</h2>
+                <p>Vous souhaitez personnaliser vos savons pour votre évènement avec un texte ou un logo? Contactez-nous pour un devis sans engagement.</p>
+                <img src="images/Savon personnalisé.jpeg" alt="Savons personnalisés">
+                <button>Contactez-nous</button>
+            </div>
+        </section>
+
+        <section id="mission">
+            <div class="mission">
+                <h2>Notre mission</h2>
+                <p>Chez Alps Sensation, notre mission est de capturer la pureté et la beauté intemporelle des Alpes suisses dans des produits cosmétiques naturels artisanaux, tout en encourageant une connexion profonde avec la nature et en soutenant des pratiques respectueuses de l'environnement.
+                En puisant dans les richesses botaniques des montagnes alpines et en respectant les traditions artisanales suisses, nous nous engageons à offrir des produits de qualité supérieure, qui nourrissent et revitalisent la peau tout en préservant la beauté naturelle qui nous entoure.
+                À travers nos cosmétiques naturels, nous aspirons à inspirer les femmes, passionnées par la nature, la randonnée, la terre et l'écologie, à embrasser leur beauté naturelle et à célébrer leur connexion intime avec l'environnement. Nous nous efforçons de créer une expérience sensorielle envoûtante qui éveille les sens, apaise l'esprit et nourrit l'âme, tout en soutenant un mode de vie durable et éco-responsable.
+                Ensemble, nous pouvons explorer les sommets des Alpes suisses et découvrir la véritable essence de la beauté alpine, tout en préservant notre planète pour les générations futures.
+                </p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="contact">
+                <h2>Nous contacter</h2>
+                <p></p>
+            </div>
+        </section>
+    </main>
+
+  <script>
+    const toggle = document.getElementById('menu-toggle');
+    const nav = document.getElementById('nav-links');
+
+    toggle.addEventListener('click', () => {
+      nav.classList.toggle('active');
+    });
+  </script>
+
+
+</body>
+</html>
