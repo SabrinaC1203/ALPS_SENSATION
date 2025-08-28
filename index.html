@@ -5,18 +5,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Alps Sensation - Savons personnalisés</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles.css">
 
 </head>
 
 <body>
 
     <header>
-        <menu>
-            <nav class="navbar">
-            <div class="menu-toggle" id="menu-toggle">
-                 ☰
-            </div>    
+        <div class="logo"><img src="/images/Logo website alps Sensation.png" alt="Logo Alps Sensation" id="logo"></div>
+        <menu class="menu">
+            <nav class="navbar">   
             <ul class="nav-links" id="nav-links">
                 <li><a href="accueil">Accueil</a></li>
                 <li><a href="produits">Produits</a></li>
@@ -27,56 +25,61 @@
             </nav>
         </menu>
 
-        <h1>Alps Sensation</h1>
-
-        <img src="images/Logo ALPS SENSATION_Bleu-fond-transparent.png" alt="Logo Alps Sensation">
     </header>
 
     <main>
         <section id="accueil">
-            <img src="images/Coffret savons artisanaux.jpg">
-            <h2>La sensation des Alpes sur votre corps</h2>
-            <p>Savons naturels fabriqués artisanalement. Nos savons sont doux, nourrissants, hydratants et apportent les bienfaits nécessaires au bien-être de votre peau et ceci grâce à des huiles de qualité sélectionnées avec soin.</p>
+            <img src="images/Coffret savons artisanaux.jpg" height="150px">
+            <div class="texteaccueil">
+                <h2>La sensation des Alpes sur votre corps</h2>
+                <p>Savons naturels fabriqués artisanalement. Nos savons sont doux, nourrissants, hydratants et apportent les bienfaits nécessaires au bien-être de votre peau et ceci grâce à des huiles de qualité sélectionnées avec soin.</p>
+            </div>
         </section>
 
         <section id="produits">
             <h2>Nos produits</h2>
             <div class="savons">
-                <div>
+                <div id="coquelicot">
                     <h3>Savon Coquelicot</h3>
+                    <img src="/images/Savon naturel coquelicot.jpeg" alt="savon coquelicot" height="100px">
                     <p>Blabla</p>
                     <p>Prix</p>
                 </div>
 
-                <div>
+                <div id ="verveine">
                     <h3>Savon Verveine</h3>
+                    <img src="/images/Savon naturel artisanal verveine.jpg" alt="savon verveine" height="100px">
                     <p>Blabla</p>
                     <p>Prix</p>
                 </div>
 
-                <div>
+                <div id="saugeromarin">
                     <h3>Savon Sauge et Romarin</h3>
+                    <img src="/images/Savon naturel artisanal sauge et Romarin.jpeg" alt="savon sauge et romarin" height="100px">
                     <p>Blabla</p>
                     <p>Prix</p>
                 </div>
 
-                <div>
+                <div id="miel">
                     <h3>Savon Miel Sucré</h3>
+                    <img src="/images/Savon naturel artisanal miel.png" alt="savon miel" height="100px">
                     <p>Blabla</p>
                     <p>Prix</p>
                 </div>
 
-                <button>Commandez depuis notre boutique Whatsapp</button>
+                
             </div>
+            <button>Commandez depuis notre boutique Whatsapp</button>
         </section> 
         
         <section id="savonsperso">
             <div>
                 <h2>Savons personnalisés</h2>
                 <p>Vous souhaitez personnaliser vos savons pour votre évènement avec un texte ou un logo? Contactez-nous pour un devis sans engagement.</p>
-                <img src="images/Savon personnalisé.jpeg" alt="Savons personnalisés">
-                <button>Contactez-nous</button>
+                <img src="images/Savon personnalisé.jpeg" alt="Savons personnalisés" height="150px">
+                
             </div>
+            <button>Contactez-nous</button>
         </section>
 
         <section id="mission">
@@ -97,16 +100,6 @@
             </div>
         </section>
     </main>
-
-  <script>
-    const toggle = document.getElementById('menu-toggle');
-    const nav = document.getElementById('nav-links');
-
-    toggle.addEventListener('click', () => {
-      nav.classList.toggle('active');
-    });
-  </script>
-
 
 </body>
 </html>
