@@ -3,6 +3,37 @@ body {
   margin: 0;
 }
 
-header{
-    display: flex;
+#logo{
+  height: 250px;
+  display: block;
+  margin: auto;
+}
+.logo{
+  border: solid;
+}
+
+.menu{
+  padding: 20px;
+  border: solid;
+  margin: 0;
+}
+
+ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border: solid;
+}
+
+li{
+  border: solid;
+  font
+}
+
+#accueil{
+  display: flex;
+}
+
+.savons{
+  display: flex;
 }
