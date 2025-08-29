@@ -6,13 +6,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Alps Sensation - Savons personnalisés</title>
   <link rel="stylesheet" href="styles.css">
-
+  <link href='https://fonts.googleapis.com/css?family=Antic Didone' rel='stylesheet'>
 </head>
 
 <body>
 
     <header>
-        <div class="logo"><img src="/images/Logo website alps Sensation.png" alt="Logo Alps Sensation" id="logo"></div>
+        <div class="logo">
+            <h1>Alps Sensation</h1>
+            <video id="video" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
+            <source src="video/Alps_sensation_video.mp4" type="video/mp4">
+        </div>
         <menu class="menu">
             <nav class="navbar">   
             <ul class="nav-links" id="nav-links">
@@ -29,40 +33,40 @@
 
     <main>
         <section id="accueil">
-            <img src="images/Coffret savons artisanaux.jpg" height="150px">
-            <div class="texteaccueil">
+            <img src="images/Coffrets 4 savons.jpeg" id="quatresavons" class="accueil">
+            <div class="accueil">
                 <h2>La sensation des Alpes sur votre corps</h2>
                 <p>Savons naturels fabriqués artisanalement. Nos savons sont doux, nourrissants, hydratants et apportent les bienfaits nécessaires au bien-être de votre peau et ceci grâce à des huiles de qualité sélectionnées avec soin.</p>
             </div>
         </section>
 
         <section id="produits">
-            <h2>Nos produits</h2>
+            <h2 id="nossavons">Nos savons</h2>
             <div class="savons">
                 <div id="coquelicot">
-                    <h3>Savon Coquelicot</h3>
-                    <img src="/images/Savon naturel coquelicot.jpeg" alt="savon coquelicot" height="100px">
+                    <h3>Coquelicot</h3>
+                    <img class="savonsimg" src="/images/Savon naturel coquelicot.jpeg" alt="savon coquelicot" height="100px">
                     <p>Blabla</p>
                     <p>Prix</p>
                 </div>
 
                 <div id ="verveine">
-                    <h3>Savon Verveine</h3>
-                    <img src="/images/Savon naturel artisanal verveine.jpg" alt="savon verveine" height="100px">
+                    <h3>Verveine</h3>
+                    <img class="savonsimg" src="/images/Savon naturel artisanal verveine.jpg" alt="savon verveine" height="100px">
                     <p>Blabla</p>
                     <p>Prix</p>
                 </div>
 
                 <div id="saugeromarin">
-                    <h3>Savon Sauge et Romarin</h3>
-                    <img src="/images/Savon naturel artisanal sauge et Romarin.jpeg" alt="savon sauge et romarin" height="100px">
+                    <h3>Sauge & Romarin</h3>
+                    <img class="savonsimg" src="/images/Savon naturel artisanal sauge et Romarin.jpeg" alt="savon sauge et romarin" height="100px">
                     <p>Blabla</p>
                     <p>Prix</p>
                 </div>
 
                 <div id="miel">
-                    <h3>Savon Miel Sucré</h3>
-                    <img src="/images/Savon naturel artisanal miel.png" alt="savon miel" height="100px">
+                    <h3>Miel Sucré</h3>
+                    <img class="savonsimg" src="/images/Savon naturel artisanal miel.png" alt="savon miel" height="100px">
                     <p>Blabla</p>
                     <p>Prix</p>
                 </div>
@@ -76,7 +80,7 @@
             <div>
                 <h2>Savons personnalisés</h2>
                 <p>Vous souhaitez personnaliser vos savons pour votre évènement avec un texte ou un logo? Contactez-nous pour un devis sans engagement.</p>
-                <img src="images/Savon personnalisé.jpeg" alt="Savons personnalisés" height="150px">
+                <img src="images/Savon personnalisé.jpeg" alt="Savons personnalisés" height="150px" id="savonspersoimg">
                 
             </div>
             <button>Contactez-nous</button>
