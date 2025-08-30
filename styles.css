@@ -100,12 +100,20 @@ h2, h3 {
 
 #coquelicot, #verveine, #saugeromarin, #miel{
   border: solid;
-  width: 200px;
+  width: 300px;
   text-align: center;
 }
 
-p{
-  font-size: 20px;
+.prix{
+  font-size: 15px;
+  border-top: solid;
+  border-bottom: solid;
+  padding: 10px 0px 10px 0px;
+}
+
+.definition{
+  text-align: justify;
+  font-size: 15px;
 }
 
 button{
@@ -134,11 +142,20 @@ button:hover{
   border: solid;
 }
 
-#savonspersoimg{
-  height: 300px;
+.ingredients{
+  font-size: 12px;
+  text-align: justify;
+  font-style: italic;
 }
 
 .savonsimg{
-  height: 80px;
+  max-width: 300px;
+  border-bottom: solid;
+  border-top: solid;
+}
+
+#notabene{
+  padding: 25px;
+  border: solid;
 }
 
